@@ -1,23 +1,3 @@
-// Function to get URL parameters
-function getUrlParameter(name) {
-    name = name.replace(/[[\]]/g, '\\$&');
-    const regex = new RegExp('[?&]' + name + '=([^&#]*)');
-    const results = regex.exec(window.location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-}
-
-// Check for tab parameter on page load
-window.addEventListener('load', function () {
-    const tab = getUrlParameter('tab');
-    if (tab === 'register') {
-        const registerTabButton = document.getElementById('register-tab');
-        if (registerTabButton) {
-            const tab = new bootstrap.Tab(registerTabButton);
-            tab.show();
-        }
-    }
-});
-
 // Tab switching
 document.addEventListener('DOMContentLoaded', function () {
     const tabButtons = document.querySelectorAll('.tab-btn');

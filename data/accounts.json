@@ -12,6 +12,7 @@
             "level": 30,
             "description": "Tài khoản VIP với nhiều skin hiếm và rank cao",
             "status": "available",
+            "featured": true,
             "images": [
                 "/assets/images/accounts/acc1_1.jpg",
                 "/assets/images/accounts/acc1_2.jpg"
@@ -32,6 +33,7 @@
             "level": 25,
             "description": "Tài khoản trắng thông tin với rank kim cương và nhiều tướng",
             "status": "available",
+            "featured": true,
             "images": [
                 "/assets/images/accounts/acc2_1.jpg",
                 "/assets/images/accounts/acc2_2.jpg"
@@ -52,6 +54,7 @@
             "level": 30,
             "description": "Tài khoản VIP cao cấp với đầy đủ tướng và skin hiếm",
             "status": "available",
+            "featured": true,
             "images": [
                 "/assets/images/accounts/acc3_1.jpg",
                 "/assets/images/accounts/acc3_2.jpg"
@@ -72,6 +75,7 @@
             "level": 20,
             "description": "Tài khoản trắng thông tin với rank tinh anh, phù hợp cho người mới",
             "status": "available",
+            "featured": true,
             "images": [
                 "/assets/images/accounts/acc4_1.jpg",
                 "/assets/images/accounts/acc4_2.jpg"
@@ -92,6 +96,7 @@
             "level": 30,
             "description": "Tài khoản VIP cao cấp nhất với đầy đủ tướng và skin hiếm",
             "status": "available",
+            "featured": true,
             "images": [
                 "/assets/images/accounts/acc5_1.jpg",
                 "/assets/images/accounts/acc5_2.jpg"
@@ -212,6 +217,7 @@
             "level": 30,
             "description": "Tài khoản VIP cao cấp nhất với đầy đủ tướng và skin hiếm",
             "status": "available",
+            "featured": true,
             "images": [
                 "/assets/images/accounts/acc11_1.jpg",
                 "/assets/images/accounts/acc11_2.jpg"
@@ -272,6 +278,7 @@
             "level": 18,
             "description": "Tài khoản trắng thông tin với rank vàng và nhiều tướng",
             "status": "available",
+            "featured": true,
             "images": [
                 "/assets/images/accounts/acc14_1.jpg",
                 "/assets/images/accounts/acc14_2.jpg"
@@ -312,6 +319,7 @@
             "level": 22,
             "description": "Tài khoản trắng thông tin với rank tinh anh và nhiều tướng",
             "status": "available",
+            "featured": true,
             "images": [
                 "/assets/images/accounts/acc16_1.jpg",
                 "/assets/images/accounts/acc16_2.jpg"

@@ -1,0 +1,229 @@
+/* Section Title */
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #0d6efd;
+}
+
+/* Filters */
+.filter-group {
+    margin-bottom: 1rem;
+}
+
+.filter-label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.btn-group {
+    gap: 0.5rem;
+}
+
+.btn-check:checked+.btn-outline-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff;
+}
+
+/* Account Card */
+.account-card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    height: 100%;
+    overflow: hidden;
+}
+
+.account-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.account-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.account-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.account-card:hover .account-image img {
+    transform: scale(1.1);
+}
+
+.account-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.badge-vip {
+    background-color: #ffd700;
+    color: #000;
+}
+
+.badge-trang {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #dee2e6;
+}
+
+.account-content {
+    padding: 1.5rem;
+}
+
+.account-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.account-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.info-item i {
+    color: #0d6efd;
+}
+
+.account-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #dee2e6;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+.discount {
+    font-size: 0.9rem;
+    color: #dc3545;
+    text-decoration: line-through;
+}
+
+/* Modal */
+.modal-content {
+    border: none;
+    border-radius: 1rem;
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+    padding: 1.5rem;
+}
+
+.modal-title {
+    font-weight: 600;
+    color: #333;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.carousel {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.account-details {
+    padding: 1rem;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.detail-label {
+    color: #666;
+    font-weight: 500;
+}
+
+.detail-value {
+    color: #333;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .account-image {
+        height: 180px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .filter-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .account-image {
+        height: 160px;
+    }
+
+    .carousel-item img {
+        height: 250px;
+    }
+}
