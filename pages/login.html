@@ -22,20 +22,22 @@
             <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-5">
                     <div class="login-container">
-                        <ul class="nav nav-pills nav-justified mb-4" id="loginTab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="login-tab" data-bs-toggle="tab"
-                                    data-bs-target="#login" type="button" role="tab">Đăng Nhập</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="register-tab" data-bs-toggle="tab"
-                                    data-bs-target="#register" type="button" role="tab">Đăng Ký</button>
-                            </li>
-                        </ul>
+                        <div class="tab-header">
+                            <div class="tab-buttons">
+                                <button class="tab-btn active" data-tab="login">
+                                    <i class="bi bi-box-arrow-in-right"></i>
+                                    <span>Đăng Nhập</span>
+                                </button>
+                                <button class="tab-btn" data-tab="register">
+                                    <i class="bi bi-person-plus"></i>
+                                    <span>Đăng Ký</span>
+                                </button>
+                            </div>
+                        </div>
 
-                        <div class="tab-content" id="loginTabContent">
+                        <div class="tab-content">
                             <!-- Login Form -->
-                            <div class="tab-pane fade show active" id="login" role="tabpanel">
+                            <div class="tab-pane active" id="login">
                                 <form id="loginForm">
                                     <div class="form-group mb-3">
                                         <label for="loginEmail">Email</label>
@@ -49,6 +51,11 @@
                                         <div class="input-group">
                                             <span class="input-group-text"><i class="bi bi-lock"></i></span>
                                             <input type="password" class="form-control" id="loginPassword" required>
+                                        </div>
+                                        <div class="form-check mt-2">
+                                            <input type="checkbox" class="form-check-input"
+                                                onclick="togglePassword('loginPassword')">
+                                            <label class="form-check-label">Hiển thị mật khẩu</label>
                                         </div>
                                     </div>
                                     <div class="d-flex justify-content-between align-items-center mb-3">
@@ -76,7 +83,7 @@
                             </div>
 
                             <!-- Register Form -->
-                            <div class="tab-pane fade" id="register" role="tabpanel">
+                            <div class="tab-pane" id="register">
                                 <form id="registerForm">
                                     <div class="form-group mb-3">
                                         <label for="registerName">Họ và tên</label>
@@ -104,10 +111,11 @@
                                         <div class="input-group">
                                             <span class="input-group-text"><i class="bi bi-lock"></i></span>
                                             <input type="password" class="form-control" id="registerPassword" required>
-                                            <button class="btn btn-outline-secondary" type="button"
-                                                id="toggleRegisterPassword">
-                                                <i class="bi bi-eye"></i>
-                                            </button>
+                                        </div>
+                                        <div class="form-check mt-2">
+                                            <input type="checkbox" class="form-check-input"
+                                                onclick="togglePassword('registerPassword')">
+                                            <label class="form-check-label">Hiển thị mật khẩu</label>
                                         </div>
                                     </div>
                                     <div class="form-group mb-3">
@@ -115,10 +123,11 @@
                                         <div class="input-group">
                                             <span class="input-group-text"><i class="bi bi-lock"></i></span>
                                             <input type="password" class="form-control" id="confirmPassword" required>
-                                            <button class="btn btn-outline-secondary" type="button"
-                                                id="toggleConfirmPassword">
-                                                <i class="bi bi-eye"></i>
-                                            </button>
+                                        </div>
+                                        <div class="form-check mt-2">
+                                            <input type="checkbox" class="form-check-input"
+                                                onclick="togglePassword('confirmPassword')">
+                                            <label class="form-check-label">Hiển thị mật khẩu</label>
                                         </div>
                                     </div>
                                     <div class="form-check mb-3">
@@ -145,6 +154,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="/assets/js/load-header-footer.js"></script>
     <script src="/assets/js/login.js"></script>
+    <script>
+        function togglePassword(inputId) {
+            const input = document.getElementById(inputId);
+            input.type = input.type === 'password' ? 'text' : 'password';
+        }
+    </script>
 </body>
 
 </html>

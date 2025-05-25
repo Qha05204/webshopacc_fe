@@ -1,0 +1,404 @@
+{
+    "accounts": [
+        {
+            "id": "ACC001",
+            "title": "Acc VIP 1 - Rank Đại Cao Thủ",
+            "price": 1500000,
+            "discount": 10,
+            "category": "VIP",
+            "rank": "Đại Cao Thủ",
+            "heroes": 85,
+            "skins": 65,
+            "level": 30,
+            "description": "Tài khoản VIP với nhiều skin hiếm và rank cao",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc1_1.jpg",
+                "/assets/images/accounts/acc1_2.jpg"
+            ],
+            "details": {
+                "has_info": true
+            }
+        },
+        {
+            "id": "ACC002",
+            "title": "Acc Trắng Thông Tin - Rank Kim Cương",
+            "price": 800000,
+            "discount": 0,
+            "category": "Trắng Thông Tin",
+            "rank": "Kim Cương",
+            "heroes": 70,
+            "skins": 45,
+            "level": 25,
+            "description": "Tài khoản trắng thông tin với rank kim cương và nhiều tướng",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc2_1.jpg",
+                "/assets/images/accounts/acc2_2.jpg"
+            ],
+            "details": {
+                "has_info": false
+            }
+        },
+        {
+            "id": "ACC003",
+            "title": "Acc VIP 2 - Rank Thách Đấu",
+            "price": 2500000,
+            "discount": 15,
+            "category": "VIP",
+            "rank": "Thách Đấu",
+            "heroes": 95,
+            "skins": 80,
+            "level": 30,
+            "description": "Tài khoản VIP cao cấp với đầy đủ tướng và skin hiếm",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc3_1.jpg",
+                "/assets/images/accounts/acc3_2.jpg"
+            ],
+            "details": {
+                "has_info": true
+            }
+        },
+        {
+            "id": "ACC004",
+            "title": "Acc Trắng Thông Tin - Rank Tinh Anh",
+            "price": 500000,
+            "discount": 5,
+            "category": "Trắng Thông Tin",
+            "rank": "Tinh Anh",
+            "heroes": 50,
+            "skins": 30,
+            "level": 20,
+            "description": "Tài khoản trắng thông tin với rank tinh anh, phù hợp cho người mới",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc4_1.jpg",
+                "/assets/images/accounts/acc4_2.jpg"
+            ],
+            "details": {
+                "has_info": false
+            }
+        },
+        {
+            "id": "ACC005",
+            "title": "Acc VIP 3 - Rank Thách Đấu",
+            "price": 3000000,
+            "discount": 20,
+            "category": "VIP",
+            "rank": "Thách Đấu",
+            "heroes": 100,
+            "skins": 90,
+            "level": 30,
+            "description": "Tài khoản VIP cao cấp nhất với đầy đủ tướng và skin hiếm",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc5_1.jpg",
+                "/assets/images/accounts/acc5_2.jpg"
+            ],
+            "details": {
+                "has_info": true
+            }
+        },
+        {
+            "id": "ACC006",
+            "title": "Acc Trắng Thông Tin - Rank Vàng",
+            "price": 300000,
+            "discount": 0,
+            "category": "Trắng Thông Tin",
+            "rank": "Vàng",
+            "heroes": 35,
+            "skins": 20,
+            "level": 15,
+            "description": "Tài khoản trắng thông tin với rank vàng, phù hợp cho người mới bắt đầu",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc6_1.jpg",
+                "/assets/images/accounts/acc6_2.jpg"
+            ],
+            "details": {
+                "has_info": false
+            }
+        },
+        {
+            "id": "ACC007",
+            "title": "Acc VIP 1 - Rank Kim Cương",
+            "price": 1800000,
+            "discount": 10,
+            "category": "VIP",
+            "rank": "Kim Cương",
+            "heroes": 80,
+            "skins": 60,
+            "level": 28,
+            "description": "Tài khoản VIP với nhiều skin đẹp và rank kim cương",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc7_1.jpg",
+                "/assets/images/accounts/acc7_2.jpg"
+            ],
+            "details": {
+                "has_info": true
+            }
+        },
+        {
+            "id": "ACC008",
+            "title": "Acc Trắng Thông Tin - Rank Đồng",
+            "price": 200000,
+            "discount": 0,
+            "category": "Trắng Thông Tin",
+            "rank": "Đồng",
+            "heroes": 25,
+            "skins": 15,
+            "level": 12,
+            "description": "Tài khoản trắng thông tin với rank đồng, phù hợp cho người mới",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc8_1.jpg",
+                "/assets/images/accounts/acc8_2.jpg"
+            ],
+            "details": {
+                "has_info": false
+            }
+        },
+        {
+            "id": "ACC009",
+            "title": "Acc VIP 2 - Rank Cao Thủ",
+            "price": 2800000,
+            "discount": 15,
+            "category": "VIP",
+            "rank": "Cao Thủ",
+            "heroes": 90,
+            "skins": 75,
+            "level": 30,
+            "description": "Tài khoản VIP cao cấp với nhiều skin hiếm và rank cao",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc9_1.jpg",
+                "/assets/images/accounts/acc9_2.jpg"
+            ],
+            "details": {
+                "has_info": true
+            }
+        },
+        {
+            "id": "ACC010",
+            "title": "Acc Trắng Thông Tin - Rank Đồng",
+            "price": 100000,
+            "discount": 0,
+            "category": "Trắng Thông Tin",
+            "rank": "Đồng",
+            "heroes": 15,
+            "skins": 8,
+            "level": 8,
+            "description": "Tài khoản trắng thông tin với rank đồng, phù hợp cho người mới",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc10_1.jpg",
+                "/assets/images/accounts/acc10_2.jpg"
+            ],
+            "details": {
+                "has_info": false
+            }
+        },
+        {
+            "id": "ACC011",
+            "title": "Acc VIP 3 - Rank Thách Đấu",
+            "price": 3500000,
+            "discount": 20,
+            "category": "VIP",
+            "rank": "Thách Đấu",
+            "heroes": 105,
+            "skins": 95,
+            "level": 30,
+            "description": "Tài khoản VIP cao cấp nhất với đầy đủ tướng và skin hiếm",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc11_1.jpg",
+                "/assets/images/accounts/acc11_2.jpg"
+            ],
+            "details": {
+                "has_info": true
+            }
+        },
+        {
+            "id": "ACC012",
+            "title": "Acc Trắng Thông Tin - Rank Đồng",
+            "price": 50000,
+            "discount": 0,
+            "category": "Trắng Thông Tin",
+            "rank": "Đồng",
+            "heroes": 8,
+            "skins": 4,
+            "level": 5,
+            "description": "Tài khoản trắng thông tin với rank đồng, phù hợp cho người mới",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc12_1.jpg",
+                "/assets/images/accounts/acc12_2.jpg"
+            ],
+            "details": {
+                "has_info": false
+            }
+        },
+        {
+            "id": "ACC013",
+            "title": "Acc VIP 1 - Rank Tinh Anh",
+            "price": 1200000,
+            "discount": 10,
+            "category": "VIP",
+            "rank": "Tinh Anh",
+            "heroes": 75,
+            "skins": 55,
+            "level": 26,
+            "description": "Tài khoản VIP với nhiều skin đẹp và rank tinh anh",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc13_1.jpg",
+                "/assets/images/accounts/acc13_2.jpg"
+            ],
+            "details": {
+                "has_info": true
+            }
+        },
+        {
+            "id": "ACC014",
+            "title": "Acc Trắng Thông Tin - Rank Vàng",
+            "price": 350000,
+            "discount": 5,
+            "category": "Trắng Thông Tin",
+            "rank": "Vàng",
+            "heroes": 40,
+            "skins": 22,
+            "level": 18,
+            "description": "Tài khoản trắng thông tin với rank vàng và nhiều tướng",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc14_1.jpg",
+                "/assets/images/accounts/acc14_2.jpg"
+            ],
+            "details": {
+                "has_info": false
+            }
+        },
+        {
+            "id": "ACC015",
+            "title": "Acc VIP 2 - Rank Cao Thủ",
+            "price": 2200000,
+            "discount": 15,
+            "category": "VIP",
+            "rank": "Cao Thủ",
+            "heroes": 85,
+            "skins": 70,
+            "level": 29,
+            "description": "Tài khoản VIP cao cấp với nhiều skin hiếm và rank cao",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc15_1.jpg",
+                "/assets/images/accounts/acc15_2.jpg"
+            ],
+            "details": {
+                "has_info": true
+            }
+        },
+        {
+            "id": "ACC016",
+            "title": "Acc Trắng Thông Tin - Rank Tinh Anh",
+            "price": 600000,
+            "discount": 5,
+            "category": "Trắng Thông Tin",
+            "rank": "Tinh Anh",
+            "heroes": 55,
+            "skins": 32,
+            "level": 22,
+            "description": "Tài khoản trắng thông tin với rank tinh anh và nhiều tướng",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc16_1.jpg",
+                "/assets/images/accounts/acc16_2.jpg"
+            ],
+            "details": {
+                "has_info": false
+            }
+        },
+        {
+            "id": "ACC017",
+            "title": "Acc VIP 3 - Rank Kim Cương",
+            "price": 3200000,
+            "discount": 20,
+            "category": "VIP",
+            "rank": "Kim Cương",
+            "heroes": 95,
+            "skins": 85,
+            "level": 30,
+            "description": "Tài khoản VIP cao cấp nhất với đầy đủ tướng và skin hiếm",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc17_1.jpg",
+                "/assets/images/accounts/acc17_2.jpg"
+            ],
+            "details": {
+                "has_info": true
+            }
+        },
+        {
+            "id": "ACC018",
+            "title": "Acc Trắng Thông Tin - Rank Đồng",
+            "price": 250000,
+            "discount": 0,
+            "category": "Trắng Thông Tin",
+            "rank": "Đồng",
+            "heroes": 30,
+            "skins": 16,
+            "level": 14,
+            "description": "Tài khoản trắng thông tin với rank đồng và nhiều tướng",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc18_1.jpg",
+                "/assets/images/accounts/acc18_2.jpg"
+            ],
+            "details": {
+                "has_info": false
+            }
+        },
+        {
+            "id": "ACC019",
+            "title": "Acc VIP 1 - Rank Tinh Anh",
+            "price": 1300000,
+            "discount": 10,
+            "category": "VIP",
+            "rank": "Tinh Anh",
+            "heroes": 78,
+            "skins": 58,
+            "level": 27,
+            "description": "Tài khoản VIP với nhiều skin đẹp và rank tinh anh",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc19_1.jpg",
+                "/assets/images/accounts/acc19_2.jpg"
+            ],
+            "details": {
+                "has_info": true
+            }
+        },
+        {
+            "id": "ACC020",
+            "title": "Acc Trắng Thông Tin - Rank Đồng",
+            "price": 150000,
+            "discount": 0,
+            "category": "Trắng Thông Tin",
+            "rank": "Đồng",
+            "heroes": 20,
+            "skins": 10,
+            "level": 10,
+            "description": "Tài khoản trắng thông tin với rank đồng và nhiều tướng",
+            "status": "available",
+            "images": [
+                "/assets/images/accounts/acc20_1.jpg",
+                "/assets/images/accounts/acc20_2.jpg"
+            ],
+            "details": {
+                "has_info": false
+            }
+        }
+    ]
+}
