@@ -1,0 +1,233 @@
+.nap-tien-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.nap-tien-wrapper {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.nap-tien-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.nap-tien-methods {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.method-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.method-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.method-card.active {
+    border-color: #0d6efd;
+    background-color: #f8f9ff;
+}
+
+.method-card i {
+    color: #0d6efd;
+    transition: transform 0.3s ease;
+}
+
+.method-card:hover i,
+.method-card.active i {
+    transform: scale(1.1);
+}
+
+.method-card h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.method-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.card-option {
+    position: relative;
+}
+
+.card-option img {
+    max-height: 40px;
+    object-fit: contain;
+}
+
+.btn-check:checked+.btn-outline-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff;
+}
+
+.bank-info {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.bank-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.wallet-logo {
+    max-width: 120px;
+    height: auto;
+}
+
+.wallet-option {
+    text-align: center;
+}
+
+.wallet-option img {
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.wallet-option .btn {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nap-tien-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.nap-tien-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    border-color: #ced4da;
+}
+
+.input-group-text i {
+    color: #6c757d;
+}
+
+.btn-primary {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(13, 110, 253, 0.3);
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nap-tien-wrapper {
+        padding: 1rem;
+    }
+
+    .nap-tien-title {
+        font-size: 2rem;
+    }
+
+    .nap-tien-methods {
+        grid-template-columns: 1fr;
+    }
+
+    .method-card {
+        padding: 1rem;
+    }
+
+    .card-body {
+        padding: 1.5rem !important;
+    }
+
+    .btn-primary {
+        padding: 0.75rem !important;
+    }
+
+    .bank-info {
+        padding: 1rem;
+    }
+
+    .bank-logo {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.payment-form {
+    animation: fadeIn 0.3s ease-out;
+}

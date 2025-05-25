@@ -1,0 +1,217 @@
+/* Font chữ */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Logo */
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
+
+/* Nav links */
+.nav-link {
+    color: #333 !important;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: #0d6efd;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Active menu */
+.nav-link.active {
+    color: #0d6efd !important;
+    font-weight: 600;
+}
+
+.nav-link.active::after {
+    width: 100%;
+}
+
+/* Cart */
+.cart-link {
+    position: relative;
+    padding-right: 1.5rem !important;
+}
+
+.cart-link .bi-cart3 {
+    font-size: 1.3rem;
+}
+
+.cart-link .badge {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    font-size: 0.7rem;
+    padding: 0.25em 0.5em;
+}
+
+/* User menu */
+.navbar .bi-person-circle {
+    font-size: 1.3rem;
+}
+
+/* Dropdown */
+.hover-dropdown {
+    position: relative;
+}
+
+.hover-dropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    transform: translateY(10px);
+    pointer-events: none;
+    margin-top: 0;
+    top: 100%;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    min-width: 220px;
+}
+
+.hover-dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.hover-dropdown::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    height: 10px;
+    background: transparent;
+}
+
+/* Dropdown items */
+.navbar .dropdown-item {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.95rem;
+    color: #333;
+    transition: all 0.2s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #0d6efd;
+    padding-left: 2rem;
+}
+
+.navbar .dropdown-item::before {
+    content: '';
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background-color: #0d6efd;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.navbar .dropdown-item:hover::before {
+    opacity: 1;
+}
+
+/* Dropdown arrow */
+.nav-link .bi-chevron-down {
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.hover-dropdown:hover .nav-link .bi-chevron-down {
+    transform: rotate(180deg);
+}
+
+/* Mobile responsive */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        padding: 1rem 0;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0.5rem 0;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .hover-dropdown .dropdown-menu {
+        display: none;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .hover-dropdown.show .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .dropdown-item {
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar .dropdown-item:hover {
+        padding-left: 1.5rem;
+    }
+}
+
+/* Thêm padding cho navbar */
+.navbar {
+    padding: 0.8rem 0;
+}
+
+/* Tùy chỉnh toggle button */
+.navbar-toggler {
+    border: 2px solid #dee2e6;
+    padding: 0.4rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
