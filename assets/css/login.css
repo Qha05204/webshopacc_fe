@@ -1,0 +1,234 @@
+:root {
+    --primary-color: #0d6efd;
+    --primary-hover: #0a58ca;
+    --text-color: #333;
+    --text-secondary: #666;
+    --border-color: #dee2e6;
+    --bg-light: #f8f9fa;
+    --bg-white: #fff;
+    --shadow-sm: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+    --border-radius: 0.5rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+}
+
+/* Layout */
+.login-section {
+    background-color: var(--bg-light);
+    min-height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+}
+
+.login-container {
+    background-color: var(--bg-white);
+    padding: var(--spacing-xl);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Tab Header */
+.tab-header {
+    margin-bottom: var(--spacing-xl);
+}
+
+.tab-buttons {
+    display: flex;
+    background: var(--bg-light);
+    padding: var(--spacing-sm);
+    border-radius: var(--border-radius);
+    position: relative;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: var(--spacing-md);
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    position: relative;
+    z-index: 1;
+}
+
+.tab-btn i {
+    font-size: 1.2rem;
+    transition: var(--transition);
+}
+
+.tab-btn.active {
+    color: var(--primary-color);
+}
+
+.tab-btn.active i {
+    transform: scale(1.1);
+}
+
+.tab-btn:hover:not(.active) {
+    color: var(--primary-color);
+}
+
+.tab-btn::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--bg-white);
+    border-radius: var(--border-radius);
+    transform: scale(0.9);
+    opacity: 0;
+    transition: var(--transition);
+    z-index: -1;
+}
+
+.tab-btn.active::after {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: var(--shadow-sm);
+}
+
+/* Tab Content */
+.tab-content {
+    position: relative;
+}
+
+.tab-pane {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: var(--spacing-lg);
+}
+
+.form-group label {
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: var(--spacing-sm);
+}
+
+.input-group-text {
+    background-color: var(--bg-light);
+    border-color: var(--border-color);
+    color: var(--text-secondary);
+}
+
+.form-control {
+    padding: var(--spacing-lg) var(--spacing-md);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Checkbox & Links */
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.form-check-label,
+.forgot-password,
+.form-check-label a {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.forgot-password,
+.form-check-label a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.forgot-password:hover,
+.form-check-label a:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+    padding: var(--spacing-lg) var(--spacing-xl);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+/* Social Login */
+.social-login p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    position: relative;
+    text-align: center;
+    margin: var(--spacing-lg) 0;
+}
+
+.social-login p::before,
+.social-login p::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    height: 1px;
+    background-color: var(--border-color);
+}
+
+.social-login p::before {
+    left: 0;
+}
+
+.social-login p::after {
+    right: 0;
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+    .login-container {
+        padding: var(--spacing-lg);
+    }
+
+    .tab-btn {
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+
+    .btn {
+        padding: var(--spacing-sm) var(--spacing-md);
+        font-size: 0.9rem;
+    }
+
+    .social-login p::before,
+    .social-login p::after {
+        width: 25%;
+    }
+}

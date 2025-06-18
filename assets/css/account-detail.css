@@ -1,0 +1,176 @@
+.account-detail {
+    background-color: #f8f9fa;
+}
+
+/* Phần ảnh */
+.account-images {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.main-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thumbnail-images {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.thumbnail:hover {
+    border-color: #0d6efd;
+}
+
+.thumbnail.active {
+    border-color: #0d6efd;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+/* Phần thông tin */
+.account-info {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+/* Giá và giảm giá */
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.original-price {
+    font-size: 1.2rem;
+    color: #6c757d;
+    text-decoration: line-through;
+}
+
+.discount-badge {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Thông tin cơ bản */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-item i {
+    font-size: 1.5rem;
+    color: #0d6efd;
+}
+
+.info-item span {
+    color: #6c757d;
+}
+
+.info-item strong {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+/* Thông tin chi tiết */
+.info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.info-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-list li:last-child {
+    border-bottom: none;
+}
+
+.info-list li i {
+    color: #0d6efd;
+}
+
+/* Nút mua hàng */
+.action-buttons .btn {
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+.action-buttons .btn i {
+    margin-right: 10px;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+    .main-image {
+        height: 300px;
+    }
+
+    .account-info {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .main-image {
+        height: 250px;
+    }
+
+    .price {
+        font-size: 1.5rem;
+    }
+
+    .original-price {
+        font-size: 1rem;
+    }
+}

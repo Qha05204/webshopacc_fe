@@ -1,0 +1,291 @@
+/* Import font Roboto từ Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Áp dụng font Roboto cho toàn bộ footer */
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Tùy chỉnh tiêu đề */
+footer h5 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* Tùy chỉnh text mô tả và links */
+footer .text-muted {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Tùy chỉnh icons */
+footer .bi {
+    font-size: 1.1rem;
+    color: #b3b3b3;
+    transition: all 0.3s ease;
+}
+
+/* Tùy chỉnh links */
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffd700 !important;
+}
+
+/* Tùy chỉnh copyright */
+footer .copyright {
+    font-size: 0.9rem;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 767.98px) {
+
+    /* Căn giữa nội dung trên mobile */
+    footer .col-md-4 {
+        text-align: center;
+    }
+
+    /* Giảm kích thước font trên mobile */
+    footer h5 {
+        font-size: 1.1rem;
+    }
+
+    footer .text-muted {
+        font-size: 0.85rem;
+    }
+
+    /* Căn giữa icons và text */
+    footer .bi {
+        display: block;
+        margin: 0 auto 0.5rem;
+    }
+
+    /* Thêm margin cho các phần tử */
+    footer .mb-4 {
+        margin-bottom: 2rem !important;
+    }
+
+    /* Tùy chỉnh copyright trên mobile */
+    footer .copyright {
+        font-size: 0.8rem;
+    }
+}
+
+/* Tùy chỉnh modal */
+.modal-content {
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal-title {
+    font-weight: 500;
+}
+
+.modal-body {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 4rem 0 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Logo & Info */
+.footer-logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.footer-info p {
+    color: #b3b3b3;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.footer-contact p {
+    color: #b3b3b3;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-contact i {
+    color: #0d6efd;
+    margin-right: 0.5rem;
+}
+
+/* Headings */
+.footer-heading {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.footer-heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #0d6efd;
+}
+
+/* Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: #0d6efd;
+    transform: translateX(5px);
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-link {
+    color: #b3b3b3;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+}
+
+/* Thống nhất màu sắc khi hover */
+.social-link:hover .bi {
+    color: #0d6efd;
+}
+
+/* Chat Button */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-2px);
+}
+
+/* Footer Divider */
+.footer-divider {
+    border-color: rgba(255, 255, 255, 0.1);
+    margin: 2rem 0;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    color: #b3b3b3;
+    font-size: 0.9rem;
+}
+
+/* Modal styles */
+.modal-content {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+    padding: 1rem 1.5rem;
+}
+
+.modal-title {
+    font-weight: 600;
+    color: #333;
+}
+
+.modal-body {
+    padding: 1.5rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Chat options */
+.chat-options .btn {
+    padding: 0.8rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.chat-options .btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Responsive styles */
+@media (max-width: 991.98px) {
+    .footer {
+        padding: 3rem 0 1.5rem;
+    }
+
+    .footer-heading {
+        font-size: 1.1rem;
+        margin-bottom: 1.2rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer {
+        padding: 2rem 0 1rem;
+    }
+
+    .footer-heading::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .footer-links a:hover {
+        transform: none;
+    }
+
+    .footer-info,
+    .footer-contact {
+        text-align: center;
+    }
+
+    .footer-contact i {
+        margin-right: 0.3rem;
+    }
+}

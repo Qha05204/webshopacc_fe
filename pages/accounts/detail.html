@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết tài khoản - Shop Tài Khoản Liên Quân Mobile</title>
+    <link rel="icon" id="favicon" href="/assets/images/logo/logo-favicon.png" type="image/png">
+    <!-- Bootstrap 5.3.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/account-detail.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="header-container"></div>
+
+    <!-- Chi tiết tài khoản -->
+    <section class="account-detail py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Phần ảnh -->
+                <div class="col-lg-6 mb-4">
+                    <div class="account-images">
+                        <div class="main-image">
+                            <img id="mainImage" src="" alt="Ảnh tài khoản" class="img-fluid rounded">
+                        </div>
+                        <div class="thumbnail-images mt-3" id="thumbnailImages">
+                            <!-- Thumbnails sẽ được thêm bằng JavaScript -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phần thông tin -->
+                <div class="col-lg-6">
+                    <div class="account-info">
+                        <h1 id="accountName" class="mb-3"></h1>
+
+                        <!-- Giá và giảm giá -->
+                        <div class="price-section mb-4">
+                            <div class="d-flex align-items-center">
+                                <span id="accountPrice" class="price"></span>
+                                <span id="originalPrice" class="original-price ms-2"></span>
+                                <span id="discountBadge" class="discount-badge ms-2"></span>
+                            </div>
+                        </div>
+
+                        <!-- Thông tin cơ bản -->
+                        <div class="basic-info mb-4">
+                            <h3 class="section-title">Thông tin cơ bản</h3>
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <i class="bi bi-trophy"></i>
+                                    <span>Rank:</span>
+                                    <strong id="accountRank"></strong>
+                                </div>
+                                <div class="info-item">
+                                    <i class="bi bi-person"></i>
+                                    <span>Số tướng:</span>
+                                    <strong id="accountHeroes"></strong>
+                                </div>
+                                <div class="info-item">
+                                    <i class="bi bi-star"></i>
+                                    <span>Số skin:</span>
+                                    <strong id="accountSkins"></strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Thông tin chi tiết -->
+                        <div class="detailed-info mb-4">
+                            <h3 class="section-title">Thông tin chi tiết</h3>
+                            <ul id="accountDetails" class="info-list">
+                                <!-- Thông tin chi tiết sẽ được thêm bằng JavaScript -->
+                            </ul>
+                        </div>
+
+                        <!-- Nút mua hàng -->
+                        <div class="action-buttons">
+                            <button class="btn btn-primary btn-lg w-100 mb-3">
+                                <i class="bi bi-cart-plus"></i> Mua ngay
+                            </button>
+                            <button class="btn btn-outline-primary btn-lg w-100">
+                                <i class="bi bi-chat-dots"></i> Liên hệ tư vấn
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Bootstrap 5.3.3 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script type="module" src="/assets/js/load-header-footer.js"></script>
+    <script src="/assets/js/account-detail.js"></script>
+</body>
+
+</html>

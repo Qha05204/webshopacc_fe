@@ -1,0 +1,420 @@
+{
+    "tai_khoan": [
+        {
+            "id": "MS - 144",
+            "ten": "MS - 144",
+            "gia": 1300000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank": "Cao thủ",
+            "rank_score": 1,
+            "so_tuong": 30,
+            "so_skin": 35,
+            "discount": 15,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Có (Giao lại cho người mua)",
+                "Số chứng minh nhân dân: không",
+                "Kết nối với Facebook: không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 144.png",
+                "/assets/images/accounts/MS 145.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS -  145",
+            "ten": "MS - 145",
+            "gia": 3750000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank": "Cao thủ",
+            "rank_score": 1,
+            "so_tuong": 76,
+            "so_skin": 146,
+            "discount": 10,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Có (giao lại cho người dungg khi mua)",
+                "Số chứng minh nhân dân: Không",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 145.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 146",
+            "ten": "MS - 146",
+            "gia": 900000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank": "Rank vàng",
+            "rank_score": 7,
+            "so_tuong": 41,
+            "so_skin": 59,
+            "discount": 5,
+            "thong_tin": [
+                "Số điện thoại: không",
+                "Email/Gmail: không",
+                "Số chứng minh nhân dân: không",
+                "Kết nối với Facebook: không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 146.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 147",
+            "ten": "MS - 147",
+            "rank": "Kim cương",
+            "gia": 3500000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 3,
+            "so_tuong": 96,
+            "so_skin": 199,
+            "discount": 15,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Có (giao lại cho người dungg khi mua)",
+                "Số chứng minh nhân dân: Không",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 147.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 148",
+            "ten": "MS -  148",
+            "rank": "Cao thủ",
+            "gia": 3000000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 1,
+            "so_tuong": 80,
+            "so_skin": 140,
+            "discount": 10,
+            "thong_tin": [
+                "Số điện thoại: Không",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Không",
+                "Kết nối với Facebook: Có"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 148.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 149",
+            "ten": "MS - 149",
+            "rank": "Cao thủ",
+            "gia": 2000000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 1,
+            "so_tuong": 31,
+            "so_skin": 40,
+            "discount": 5,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Không",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 149.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 150",
+            "ten": "MS - 150",
+            "rank": "Tinh Anh",
+            "gia": 2200000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 2,
+            "so_tuong": 51,
+            "so_skin": 64,
+            "discount": 15,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Có",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 150.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 151",
+            "ten": "MS - 151",
+            "rank": "Tinh Anh",
+            "gia": 2700000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 2,
+            "so_tuong": 94,
+            "so_skin": 168,
+            "discount": 10,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Có",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 151.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 152",
+            "ten": "MS - 152",
+            "rank": "Cao thủ",
+            "gia": 4000000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 1,
+            "so_tuong": 80,
+            "so_skin": 107,
+            "discount": 5,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Có (giao lại cho người dungg khi mua)",
+                "Số chứng minh nhân dân: Không",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 152.jpg"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 153",
+            "ten": "MS - 153",
+            "rank": "Cao thủ",
+            "gia": 3500000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 1,
+            "so_tuong": 101,
+            "so_skin": 172,
+            "discount": 15,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Không",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 153.jpg"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS -  154",
+            "ten": "MS - 154",
+            "rank": "Cao thủ",
+            "gia": 2200000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 1,
+            "so_tuong": 83,
+            "so_skin": 112,
+            "discount": 10,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Có",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 154.jpg"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 155",
+            "ten": "MS - 155",
+            "rank": "Kim Cương",
+            "gia": 900000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 2,
+            "so_tuong": 53,
+            "so_skin": 90,
+            "discount": 5,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Có",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 155.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 156",
+            "ten": "MS - 156",
+            "rank": "Cao thủ",
+            "gia": 4500000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 18,
+            "so_tuong": 122,
+            "so_skin": 516,
+            "discount": 15,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Không",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 156.jpg"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 157",
+            "ten": "MS - 157",
+            "rank": "Cao thủ",
+            "gia": 120000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 1,
+            "so_tuong": 51,
+            "so_skin": 58,
+            "discount": 10,
+            "thong_tin": [
+                "Số điện thoại: Không",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Không",
+                "Kết nối với Facebook: Có"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 157.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 158",
+            "ten": "MS - 158",
+            "rank": "Cao thủ",
+            "gia": 3000000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 1,
+            "so_tuong": 122,
+            "so_skin": 376,
+            "discount": 5,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Có",
+                "Kết nối với Facebook: Có"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 158.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 159",
+            "ten": "NS - 159",
+            "rank": "Tinh Anh",
+            "gia": 4000000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 9,
+            "so_tuong": 121,
+            "so_skin": 337,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Có",
+                "Kết nối với Facebook: Có"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 159.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 160",
+            "ten": "MS - 160",
+            "rank": "Kim Cương",
+            "gia": 4500000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 4,
+            "so_tuong": 106,
+            "so_skin": 179,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Có",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 160.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 161",
+            "ten": "MS - 161",
+            "rank": "Cao thủ",
+            "gia": 7000000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 16,
+            "so_tuong": 122,
+            "so_skin": 584,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Có",
+                "Kết nối với Facebook: Có"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 161.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS - 163",
+            "ten": "MS - 163",
+            "rank": "Tinh Anh",
+            "gia": 150000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 9,
+            "so_tuong": 122,
+            "so_skin": 302,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Có",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 163.png"
+            ],
+            "trang_thai": "còn hàng"
+        },
+        {
+            "id": "MS -  164",
+            "ten": "MS - 164",
+            "rank": "Bạch kim",
+            "gia": 100000,
+            "mo_ta": "Shop Tài Khoản Liên Quân Mobile. Designed by Nhóm 06 - Thiết Kế Web",
+            "rank_score": 4,
+            "so_tuong": 61,
+            "so_skin": 79,
+            "thong_tin": [
+                "Số điện thoại: Có",
+                "Email/Gmail: Không",
+                "Số chứng minh nhân dân: Có",
+                "Kết nối với Facebook: Không"
+            ],
+            "hinh_anh": [
+                "/assets/images/accounts/MS 164.png"
+            ],
+            "trang_thai": "còn hàng"
+        }
+    ]
+}
